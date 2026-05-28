@@ -40,7 +40,7 @@ function checkAnswer(){
         message.innerHTML = "Correct!";
         message.style.color = "green";
     } else {
-        message.innerHTML = "Wrong! Correct answer is " + currentAnswer + ".";
+        message.innerHTML = "Wrong! Correct answer is " + answer + ".";
         message.style.color = "red";
     }
 
@@ -77,3 +77,4 @@ function playAgain(){
     generateQuestion();
 }
 
+generateQuestion();
